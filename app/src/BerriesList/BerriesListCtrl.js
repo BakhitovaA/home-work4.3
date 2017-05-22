@@ -2,7 +2,7 @@
 
 pokemonApp.controller('BerriesListCtrl', function($scope, BerriesService) {
 
-    PokemonsService.getBerries().then(function(response) {
+    BerriesService.getBerries().then(function(response) {
         $scope.berries = response.data.results;
     });
 
