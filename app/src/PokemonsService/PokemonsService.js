@@ -24,8 +24,8 @@ angular
                     });
                 },
 				
-				//Сделать запрос PUT при клике на кнопку «Сохранить»
-				editPokemonDetail: function(pokemonData) {
+		//Сделать запрос PUT при клике на кнопку «Сохранить»
+		editPokemonDetail: function(pokemonData) {
                     return $http({
                         method: 'PUT',
                         url: 'https://api.backendless.com/v1/data/pokemons' + pokemonId,
