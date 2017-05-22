@@ -2,6 +2,7 @@
 
 pokemonApp.controller('PokemonListCtrl', function($scope, PokemonsService, BerriesService) {
 
+     /*
      PokemonsService.getPokemons().then(function(response) {
          $scope.pokemons = response.data.results;
      });
@@ -9,8 +10,8 @@ pokemonApp.controller('PokemonListCtrl', function($scope, PokemonsService, Berri
      BerriesService.getBerries().then(function(response) {
          $scope.berries = response.data.results;
     });
-
-    /*
+     */
+    
     PokemonsService.getPokemons().then(function(response) {
         $scope.pokemons = response.data.results;
 
@@ -18,8 +19,5 @@ pokemonApp.controller('PokemonListCtrl', function($scope, PokemonsService, Berri
     }).then(function(response) {
         $scope.berries = response.data.results;
     });
-    */
-
-
-
+    
 });
