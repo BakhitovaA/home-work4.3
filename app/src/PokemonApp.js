@@ -15,7 +15,7 @@ angular
             templateUrl: 'src/PokemonDetail/PokemonDetail.html',
             controller: 'PokemonDetailCtrl'
         }).
-		when('/pokemons/edit/:pokemonId', {
+	when('/pokemons/edit/:pokemonId', {
             templateUrl: 'src/EditPokemon/EditPokemonDetail.html',
             controller: 'EditPokemonDetailCtrl'
         }).
